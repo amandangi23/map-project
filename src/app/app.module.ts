@@ -12,7 +12,7 @@ import { HelloComponent } from './hello.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
     MapComponent,
     AddressMainComponent,
     UserCurrentLocationComponent,
@@ -34,3 +34,4 @@ export class AppModule { }
 
 // npm install @types/googlemaps@latest --save-dev
 
+ 

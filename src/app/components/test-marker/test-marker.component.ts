@@ -37,7 +37,7 @@ export class TestMarkerComponent {
     console.log('dragEnd', m, $event);
   }
 
-  markers: marker[] = [
+  markers: marker[] = [ 
     {
       lat: 28.6448,
       lng: 77.216721,
