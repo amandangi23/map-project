@@ -14,7 +14,7 @@ export class AddressMainComponent {
   constructor(private locationService: LocationService) {}
 
   ngOnInit() {
-    const successCallback = position => {
+    const successCallback = (position:any) => {
       const lat = position?.coords.latitude;
       const lon = position?.coords.longitude;
 
@@ -27,7 +27,7 @@ export class AddressMainComponent {
       );
     };
 
-    const errorCallback = error => {
+    const errorCallback = (error:any) => {
       let errorMessage = 'Unknown error';
 
       switch (error.code) {
