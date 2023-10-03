@@ -29,8 +29,8 @@ import { HelloComponent } from './hello.component';
   ], 
   providers: [],
   bootstrap: [AppComponent] 
-})
+}) 
 export class AppModule { } 
 
- 
-// npm install @agm/core@latest 
+// npm install @types/googlemaps@latest --save-dev
+
