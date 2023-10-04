@@ -38,8 +38,10 @@ export class UserCurrentLocationComponent {
           this.lat = position.coords.latitude;
           this.lng = position.coords.longitude;
           console.log( 'lat:' , this.lat);
-          console.log( 'lng:' ,this.lng);
-        }
+          console.log( 'lng:' ,this.lng);  
+        }; 
+
+          
       }, 
       (error: PositionError) => console.log(error));
     } else {
@@ -47,5 +49,5 @@ export class UserCurrentLocationComponent {
     }
   }
 }
-
+ 
 
